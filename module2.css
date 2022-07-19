@@ -1,0 +1,87 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 470px;
+    flex-wrap: wrap;
+  }
+
+  .itema,
+  .itemb,
+  .itemc {
+    width: 325px;
+    height: 180px;
+    background-color: grey;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+  }
+
+  h3 {
+    border: solid;
+    border-color: black;
+    border-width: 0 0 2px 2px;
+    text-align: center;
+    width: 80px;
+    align-self: flex-end;
+    margin: 0%;
+    padding: 4px 25px 4px 25px;
+  }
+
+  .s1 {
+    background-color: pink;
+  }
+
+  .s2 {
+    background-color: rgb(216, 67, 67);
+    color: white;
+  }
+
+  .s3 {
+    background-color: rgba(244, 244, 79, 0.58);
+  }
+
+  h1 {
+    text-align: center;
+    height: 105px;
+    padding-top: 35px;
+  }
+
+  .itemd {
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: grey;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    margin: 0%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+  }
+
+  .p4 {
+    margin: 0%;
+    padding-top: 4px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 1013px) and (min-width:688px) {
+    .itemc {
+      width: 775px;
+    }
+  }
+
+  @media (max-width: 688px) {
+    .itema,
+    .itemb,
+    .itemc,
+    .itemd {
+      margin: 10px;
+    }
+    
+  }
